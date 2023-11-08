@@ -12,7 +12,7 @@ const SliderHome = ()=> {
                         <h5 className="Bienvenido">Bienvenido a Artifice</h5>
                             <h2 className="h2Slider">Remodela tu hogar con nosotros</h2>
                         <p className="ParrafoPrincipal">Porque creemos que tu casa puede ser de pelicula, queremos poner a tu alcance el diseño de interiores online.
-                        Facil, divertido y asequiible</p>
+                        Facil, divertido y asequible</p>
                     </div>
                 </li>
                 <li  className="TextoSecundaria">

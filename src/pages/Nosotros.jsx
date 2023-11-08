@@ -6,7 +6,7 @@ function Nosotros() {
     return (
         <>
         <SliderV nombre="Nosotros"></SliderV>
-        <Mvn numero="2" Titulo="MISION" p1="Transformar espacios en entornos inspiradores y funcionales, donde la belleza y la
+        <Mvn numero="2" Titulo="MISIÓN" p1="Transformar espacios en entornos inspiradores y funcionales, donde la belleza y la
 funcionalidad son conceptos que trabajan de manera armoniosa. Nos
 comprometemos a superar las expectativas de nuestros clientes a través de la
 creatividad, la innovación y un servicio excepcional. Guiados por la pasión por el
