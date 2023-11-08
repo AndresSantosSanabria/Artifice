@@ -1,4 +1,7 @@
+
+
 .MvnPadre {
+    
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -56,10 +59,13 @@
     border-bottom-right-radius: 21px;
 }
 
+
+
 /*Responsive movil*/
 @media  screen and (max-width: 819px) {
     
     .Mvn1 {
+        
         max-width: 100%;
         max-height: 530em;
         display: flex;
@@ -207,14 +213,12 @@
         max-width: 90%;
     }
 }
-@media  screen and (min-width: 1024px) {
-    .MvnPadre {
-        max-height: 80vh;
-    }
-    .MvnImg img{
-        max-height: 584px;
-    }
+@media screen and (min-width: 1024px){
+.MvnImg img {
+    max-height: 530px
 }
+}
+
 @media  screen and (min-width: 881px) and (max-width: 1184px) {
     .MvnPadre {
         max-height: 100vh;

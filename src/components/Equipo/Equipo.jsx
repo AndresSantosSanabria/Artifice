@@ -20,7 +20,7 @@ const Equipo =()=>{
                         </div>
                         <div className ="card-body">
                             <p>
-                            profesional en diseño de interiores egresada de la universidad LaSalleCollege y futura 
+                            Profesional en diseño de interiores egresada de la universidad LaSalleCollege y futura 
                             arquitecta, fundadora de Idealo Espacios en 2020.
                             Su vida siempre ha girado en torno al diseño interior y la contrucción, con gustos por el 
                             color, las formas y con alto potencial para crear. 

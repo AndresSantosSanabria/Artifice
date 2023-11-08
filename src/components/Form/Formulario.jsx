@@ -48,7 +48,7 @@ function Formulario() {
                         <li><BsFillTelephoneFill></BsFillTelephoneFill> 3124528721</li>
                         <li><SiGmail></SiGmail>artificeinterioedesign@gmail.com</li>
                     </ul>
-                    <p>entendemos que el tiempo y la inversión de las personas
+                    <p>Entendemos que el tiempo y la inversión de las personas
                     son aspectos fundamentales, lo cual nos lleva a ofrecer productos de alta calidad para el diseño y ladecoración de espacios generales, todo con el fin de hacer que el proceso de diseño se convierta en una experiencia viva de lo que somos como marca.</p>
                     <p>Artifice.com</p>
 

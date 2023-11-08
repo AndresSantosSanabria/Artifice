@@ -55,12 +55,11 @@ const ClickFARO = () => {
 
     return (<motion.div className="slider-container" >
               <motion.div className="SliderG">
-                  <motion.div className="item"><img src="img/ImgArtifice/ARENA/5.webp"  alt="" onClick={ClickARENA} key={1}/> <p>Arena</p> </motion.div>
-                  <motion.div className="item" ><img src="img/ImgArtifice/PRIMAVERA/primavera.webp" alt="" onClick={ClickPRIMAVERA} key={2}/> <p>Primavera</p> </motion.div>
-                  <motion.div className="item"><img src="img/ImgArtifice/RIVER/IMG_3819.webp" alt="" onClick={ClickRIVER} key={3}/> <p>River</p> </motion.div>
-                  <motion.div className="item"><img src="img/ImgArtifice/MAR/IMG_0855.webp" alt="" onClick={ClickMAR} key={4}/> <p>Mar</p> </motion.div>
-                  <motion.div className="item"><img  src="img/ImgArtifice/FARO/IMG_3955.webp" alt="" onClick={ClickFARO} key={5}/> <p>Faro</p> </motion.div>
-                  <motion.div className="item"><img  src="img/ImgArtifice/PALMA/IMG_1981.webp" alt="" key={5}/> <p>Palma</p> </motion.div>
+                  <motion.div className="item" onClick={ClickARENA}><img src="img/ImgArtifice/ARENA/5.webp"  alt=""  key={1}/> <p>Arena</p> </motion.div>
+                  <motion.div className="item" onClick={ClickPRIMAVERA}><img src="img/ImgArtifice/PRIMAVERA/primavera.webp" alt=""  key={2}/> <p>Primavera</p> </motion.div>
+                  <motion.div className="item" onClick={ClickRIVER}><img src="img/ImgArtifice/RIVER/IMG_3819.webp" alt=""  key={3}/> <p>River</p> </motion.div>
+                  <motion.div className="item" onClick={ClickMAR}><img src="img/ImgArtifice/MAR/IMG_0855.webp" alt=""  key={4}/> <p>Mar</p> </motion.div>
+                  <motion.div className="item" onClick={ClickFARO}><img  src="img/ImgArtifice/FARO/IMG_3955.webp" alt="" onClick={ClickFARO} key={5}/> <p>Faro</p> </motion.div>
               </motion.div>
             </motion.div>
       );
