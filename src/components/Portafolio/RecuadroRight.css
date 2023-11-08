@@ -1,0 +1,177 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.BoxRight {
+    margin-top:300px;
+    margin-right:2%;
+    margin-left: 4%;
+    width:300px;
+    height:100px;
+    float: right;
+    background:#C7B299; 
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(156, 156, 156);
+}
+
+.BloqueR{
+    margin: 10px;
+    width:65%;
+    height:645px;
+    float:left;
+    margin-left:2%;
+    background-color: #736357;
+    padding: 1%;
+    position: relative;
+}
+.BloqueR .PortImg1{
+    width:48% ;
+    height: 47%;
+    margin: 1%; 
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.BloqueR .PortImg2{
+    width: 15%;
+    height: 47%;
+    margin: 1%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.BloqueR .PortImg3{
+    width: 30%;
+    height: 92%;
+    margin: 1%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.BloqueR .PortImg4{
+    width: 32%;
+    height: 46%;
+    margin: 1%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.BloqueR .PortImg5{
+    width: 31%;
+    height: 46%;
+    margin: 1%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.BloqueR:hover .Texto{
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    z-index: 1;
+    font-size: 40px;
+}
+.BloqueR:hover{ 
+    background-color: rgba(121, 120, 120, 0.699);
+    filter:brightness(0.8);
+    cursor: pointer;
+}
+
+@media (max-width:1239px){
+    .BoxRight{
+        width: 280px; 
+    }
+}
+@media (max-width:1159px){
+    .BoxRight{
+        margin-left: 3%;
+    }
+}
+@media (max-width:1115px){
+    .BoxRight{
+        width: 250px;
+        margin-left: 4%;
+    }
+}
+@media (max-width:1040px){
+    .BoxRight{
+        margin-left: 3%;
+    }
+}
+@media (max-width:999px){
+    .BoxRight{
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:962px) {
+    .row{
+        flex-direction: column;
+    }
+    .row .BoxRight{
+        order: 1;
+    }
+    .row .BloqueR{
+        order: 2;
+    }
+    .BoxRight{
+        margin-top: 25px;
+        margin-left: 3%;
+        width:94%;
+        height:90px;   
+        box-shadow: none;  
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .BloqueR{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        margin-left: 3%;
+        width: 92%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .BloqueR .PortImg3{
+        height: 94%;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+@media (max-width:480px){
+    .BoxRight{
+        height: 80px;
+    }
+    .BloqueR{
+        height: 500px;
+    }
+    .BloqueR .PortImg2{
+        width: 48%;
+    }
+    .BloqueR .PortImg4{
+        width: 40%;
+    }
+    .BloqueR .PortImg5{
+        width: 56%;
+        border-bottom-right-radius: 20px;
+    }
+}
+@media (max-width:380px){
+    .BloqueR{
+        height: 400px;
+    }
+    .BloqueR .PortImg4{
+        display: none;
+    }
+    .BloqueR .PortImg2{
+        display: none;
+    }
+    .BloqueR .PortImg1{
+        width: 98%;
+    }
+    .BloqueR .PortImg5{
+        width: 98%;
+        border-bottom-left-radius: 20px;
+    }
+}

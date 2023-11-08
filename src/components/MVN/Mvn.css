@@ -1,0 +1,225 @@
+.MvnPadre {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+    background-color: #d7c2ac;
+    border-radius: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.MvnText{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.MvnText h3{
+    color: #846851;
+}
+.MvnText h1{
+    color:#736357;
+    text-align:center;
+    font-weight:bold;
+}
+.MvnText p{
+    font-size:18px;
+    font-weight:600;
+    text-align:justify;
+}
+.MvnImg{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.MvnImg img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.icono{
+    display: flex;
+    color: #E5DBD0;
+    font-size: 7em;
+    margin-bottom: -26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.NvnImg2 img{
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+}
+.NvnImg1 img{
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+/*Responsive movil*/
+@media  screen and (max-width: 819px) {
+    
+    .Mvn1 {
+        max-width: 100%;
+        max-height: 530em;
+        display: flex;
+        border-radius: 0px;
+        flex-direction: column-reverse;
+        background-color: #736357;
+        padding-bottom: 18px;
+    }
+    .Mvn2 {
+        margin-top: 15%;
+        max-width: 100%;
+        max-height: 670em;
+        display: flex;
+        border-radius: 0px;
+        flex-direction: reverse;
+        background-color: #736357;
+        padding-bottom: 18px;
+    }
+    .MvnText{
+        width: 90%;
+        max-height: 450px;
+        padding-left: 0%;
+        padding-right: 0%;
+        background-color: #E5DBD0;
+    }
+    .MvnText h1{
+        padding-top: 5%;
+    }
+    .MvnText{
+        height: 540px;
+    }
+    .MvnText p{
+        font-size:18px;
+        font-weight:600;
+        text-align:justify;
+        margin: 5%;
+    }
+    .NvnImg1, .NvnImg2{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+    }
+    .NvnImg1 img{
+        max-height: 400px;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .NvnImg1 img{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .NvnImg2 img{
+        max-height: 400px;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .NvnImg2 img{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .icono{
+        max-width: 0px;
+        max-height: 0px;
+        visibility:hidden;
+        opacity:0;
+    }
+}
+@media  screen and (max-width: 643px) {
+    .MvnText{
+        max-height: 480px;
+    }
+}
+@media  screen and (max-width: 500px) {
+    .MvnText{
+        max-height: 480px;
+    }
+}
+@media  screen and (max-width: 442px) {
+    .MvnText{
+        max-height: 15%;
+    }
+}
+@media  screen and (max-width: 440px) {
+    .NvnImg1 img{
+        max-height: 300px;
+    }
+    .NvnImg2 img{
+        max-height: 300px;
+    }
+}
+@media  screen and (max-width: 340px) {
+    .NvnImg1 img{
+        max-height: 200px;
+    }
+    .NvnImg2 img{
+        max-height: 200px;
+    }
+}
+
+
+@media  screen and (max-width: 337px) {
+    .MvnText{
+        width: 90%;
+        height: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
+        background-color: #E5DBD0;
+    }
+}
+
+/*Responsive Tablet*/
+@media  screen and (min-width: 820px) and (max-width: 1043px) {
+    .MvnPadre {
+        max-height: 640px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -10px;
+        background-color: #d7c2ac;
+        border-radius: 21px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    .MvnText{
+        font-size: 12px;
+    }
+    .MvnText p{
+        font-size:12px;
+        font-weight:600;
+        text-align:justify;
+    }
+    .icono{
+        font-size: 4em;
+        margin-bottom: -1px;
+    }
+    .NvnImg1{
+        max-width: 90%;
+    }
+}
+@media  screen and (min-width: 1024px) {
+    .MvnPadre {
+        max-height: 80vh;
+    }
+    .MvnImg img{
+        max-height: 584px;
+    }
+}
+@media  screen and (min-width: 881px) and (max-width: 1184px) {
+    .MvnPadre {
+        max-height: 100vh;
+    }
+    .MvnImg img{
+        max-height: 584px;
+    }
+}

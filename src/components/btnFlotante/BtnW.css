@@ -1,0 +1,28 @@
+.btn-wsp{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 30px;
+    background: #C6B098;
+    color: #846852;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 90px;
+    z-index: 6;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #C6B098;
+    background: #846852;
+}
+@media screen and (max-width: 767px) {
+    .btn-wsp{
+        width: 40px;
+        height: 40px;
+    }
+}

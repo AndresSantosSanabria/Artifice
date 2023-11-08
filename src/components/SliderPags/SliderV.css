@@ -1,0 +1,118 @@
+.TituloSlider{
+    color: #C6B098;
+    position: absolute;
+    font-size: 55px;
+    margin-top: -10%;
+}
+.sliderHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SlideV{
+    width: 100vw;
+    height: 610px;
+    overflow: hidden;
+    z-index: -1;
+    box-sizing: border-box;
+    overflow-x:hidden ;
+    border-radius:  2% 0% 49% 49% / 0% 0% 13% 13% ;
+    margin-top: -16px;
+    margin-bottom: 25px;
+}
+.SlideV ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: Slider 9s infinite ; 
+    object-fit: fill;
+    
+    
+}
+.SlideV li{
+    width: 100%;
+
+    list-style: none;
+
+
+}
+.SlideV img{
+    width: 100%;
+    height: 610px;
+    filter:brightness(20%);
+
+    
+}
+@keyframes Slider {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+@media  screen and (max-width: 600px) {
+    .TituloSlider{
+        color: #C6B098;
+        position: absolute;
+        font-size: 20px;
+        margin-top: -10%;
+    }
+
+    .SlideV{
+        max-width: 1000px;
+        height: 200px;
+        border-radius:  0% 0% 0% 0% / 0% 0% 0% 0% ;
+    }
+    .imgSlider{
+        max-height:220px;
+        
+    }
+}
+@media  screen and (max-width: 420px) {
+    
+    .SlideV{
+        border-radius:  0% 0% 0% 0% / 0% 0% 0% 0% ;
+    }
+    .imgSlider{
+        max-height:220px;
+    }
+}
+
+@media  screen and (min-width: 350px) and (max-width:1024px) {
+    .SlideV{
+        height: 320px;
+    }
+    .sliderHome{
+        max-height: 329px;
+    }
+    .SlideV{
+        margin-bottom: -110px;
+    }
+    .TituloSlider{
+        color: #C6B098;
+        position: absolute;
+        font-size: 30px;
+        margin-top: 0%;
+    }
+}
+@media  screen and (min-width: 800px) and (max-width:1024px) {
+    
+    .SlideV{
+        margin-bottom: 25px;
+    }
+}
+@media  screen and (min-width: 601px) and (max-width:800px) {
+    .SlideV{
+        margin-bottom: 25px;
+    }
+}

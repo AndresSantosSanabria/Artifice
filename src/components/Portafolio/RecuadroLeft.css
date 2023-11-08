@@ -1,0 +1,184 @@
+
+.DivContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ColorLetra{
+    color: #736357;
+}
+
+.boxLeft{
+    margin-top:280px;
+    margin-left:2%;
+    margin-right: 4%;
+    width:300px;
+    height:100px;
+    float: left;
+    background:#C7B299; 
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(156, 156, 156);
+}
+
+.BloqueL{
+    margin:10px;
+    width:65%;
+    height:645px;
+    float:right;
+    margin-right: 2%;
+    background-color: #736357;
+    padding: 1%;
+    position: relative;
+}
+
+.BloqueL .PortImg1{
+    width:35% ;
+    height:47%;
+    margin: 1%; 
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.BloqueL .PortImg2{
+    width: 25%;
+    height: 47%;
+    margin: 1%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.BloqueL .PortImg3{
+    width: 33%;
+    height: 23%;
+    margin: 1%;
+    position: absolute;
+    object-fit: cover;
+}
+.BloqueL .PortImg4{
+    width: 62%;
+    height: 46%;
+    margin: 1%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.BloqueL .PortImg5{
+    width: 33%;
+    height: 65%;
+    margin: 1%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -135px;
+}
+.Texto{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+.BloqueL:hover .Texto{
+    transform: translate(-50%, -50%) scale(1);
+    color: white;
+    z-index: 1;
+    font-size: 40px;
+}
+.BloqueL:hover{ 
+    background-color: rgba(121, 120, 120, 0.699);
+    filter:brightness(0.8);
+    cursor: pointer;
+}
+
+@media (max-width:1239px){
+    .boxLeft{
+        width: 280px; 
+    }
+}
+@media (max-width:1159px){
+    .boxLeft{
+        margin-right: 3%;
+    }
+}
+@media (max-width:1115px){
+    .boxLeft{
+        width: 250px;
+        margin-right: 4%;
+    }
+}
+@media (max-width:1040px){
+    .boxLeft{
+        margin-right: 3%;
+    }
+}
+@media (max-width:999px){
+    .boxLeft{
+        margin-right: 2%;
+    }
+}
+@media (max-width:962px) {
+    .boxLeft{
+        margin-top: 25px;
+        margin-left: 3%;
+        width:94%;
+        height:90px;   
+        box-shadow: none;  
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .BloqueL{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        margin-left: 3%;
+        width: 92%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .BloqueL .PortImg3{
+        height: 24%;
+    }
+    .PortImg4{
+        border-bottom-left-radius: 20px;
+    }
+    .BloqueL .PortImg5{
+        height: 66%;
+        border-bottom-right-radius: 20px;
+    }
+}
+@media (max-width:480px){
+    .boxLeft{
+        height: 80px;
+    }
+    .BloqueL{
+        height: 500PX;
+    }
+    .BloqueL .PortImg2{
+        display: none;
+    }
+    .PortImg3{
+        display: none;
+    }
+    .BloqueL .PortImg1{
+        width: 62%;
+    }
+    .BloqueL .PortImg5{
+        height: 94%;
+        margin-top: -243px;
+    }
+}
+@media (max-width:440px){
+    .BloqueL .PortImg5{
+        display: none;
+    }
+    .BloqueL .PortImg1{
+        width: 98%;
+    }
+    .BloqueL .PortImg4{
+        width: 98%;
+        border-bottom-right-radius: 20px;
+    }
+}
+@media (max-width:380px){
+    .BloqueL{
+        height: 400px;
+    }
+}
