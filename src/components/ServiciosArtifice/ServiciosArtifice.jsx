@@ -11,22 +11,22 @@ function ServiciosArtifice() {
                     <p className='ServiciosTexto'>Diseño de interiores</p>
                 </div>
                 <div className="ServicioRemodelacion">
-                <p className='ServiciosTexto'>Remodelacion de espacios</p>
+                <p className='ServiciosTexto'>Remodelación de espacios</p>
                 </div>
                 <div className="ServicioArquitectura">
-                <p className='ServiciosTexto'>Ariqutectura</p>
+                <p className='ServiciosTexto'>Arquitectura</p>
                 </div>
                 <div className="ServicioDiseño">
-                <p className='ServiciosTexto'>Asesoria de diseño</p>
+                <p className='ServiciosTexto'>Asesoría de diseño</p>
                 </div>
                 <div className="ServicioGestion">
-                <p className='ServiciosTexto'>Gestion de proyectos</p>
+                <p className='ServiciosTexto'>Gestión de proyectos</p>
                 </div>
                 <div className="Servicio3D">
-                <p className='ServiciosTexto'>Visualizacion 3D</p>
+                <p className='ServiciosTexto'>Visualización 3D</p>
                 </div>
                 <div className="ServicioPersonalizado">
-                <p className='ServiciosTextoG'>Fabricacion de moviliario personalizado</p>
+                <p className='ServiciosTextoG'>Fabricación de mobiliario personalizado</p>
                 </div>
             </div>
         </>

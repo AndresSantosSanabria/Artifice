@@ -22,7 +22,7 @@ const Equipo =()=>{
                             <p>
                             Profesional en diseño de interiores egresada de la universidad LaSalleCollege y futura 
                             arquitecta, fundadora de Idealo Espacios en 2020.
-                            Su vida siempre ha girado en torno al diseño interior y la contrucción, con gustos por el 
+                            Su vida siempre ha girado en torno al diseño interior y la construcción, con gustos por el 
                             color, las formas y con alto potencial para crear. 
                             Constantemente trabaja por la innovación en los diseños, además de la actualización de 
                             tendencias y estilos de decoración.

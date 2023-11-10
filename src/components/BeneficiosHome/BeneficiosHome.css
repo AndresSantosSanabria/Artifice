@@ -9,20 +9,21 @@
 }
 .caja1{
     display: flex;
-    width: 250%;
-    animation: Slider 20s infinite alternate ease-in-out;  
+    width: 200%;
+    animation: Slider 40s infinite alternate ease-in-out;  
     place-items: center;
 }
 .hhh{
     display: grid;
-    grid-template-columns:920px;
-
+    grid-template-columns:740px;
+    margin-left:15px ;
+    width: 720px;
 
 }
 
 .TituloCompu{
     text-align: center;
-    margin-top: -85px;
+    margin-top: -110px;
     font-size: 30px;
     color: #736357;
     margin-right:5px;
@@ -32,23 +33,23 @@
     text-align: justify;
     margin: 40px;
     margin-top: -3px;
-    font-size: 20px;
+    font-size: 22px;
 }
 /* css celular */
 .valoresPadre{
-    width: 99vw;
-    height: 600px;
-    overflow: hidden;
+    width: 100%;
     box-sizing: border-box;
-    overflow-x:hidden ;
     z-index: -1;
+    overflow-x: auto;
     
 }
 .caja{
     display: flex;
-    width: 400%;
-    animation: Slider 20s infinite alternate ease-in-out;  
-    place-items: center;
+    width: 100%;
+    height: 280px;
+
+    /* animation: Slider 20s infinite alternate ease-in-out;   */
+
 
 }
 .iconoCorazon{
@@ -60,16 +61,13 @@
 .GG{
     background-color: #D6C6B4;
     box-shadow: 21px 21px 0px 0px #736357;
-    height:230px;
+    height:220px;
     width: 65%;
     align-items: center;
     margin-left: 25px;
     margin-right: 40px;
-    
-
 }
 .hh{
-
     display: grid;
 
 }
@@ -99,78 +97,964 @@
 
 }
 
-@media only screen and (min-width:200px ) and ( max-width: 376px) {
+@media only screen and (min-width: 300px) and (max-width: 315px){
     .hh{
         grid-template-columns: 350px;
-        margin-left: 25px;
+        height: 40px;
     }    
     .Titulo{
-        margin-top: -20px;
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
     }
     .TextoBeneficios{
         margin-left: 10px;
         margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
+    }
+}
+@media only screen and (min-width: 315px) and (max-width: 322px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
     }
 } 
-@media only screen and (min-width:378px) and (max-width: 415px) {
-    .hh{
-        grid-template-columns: 400px;
-        margin-left: 20px;
-    }    
-    .Titulo{
-        margin-top: -40px;
-        font-size: 20px;
-    }
-    .TextoBeneficios{
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size:15px ;
-    }
-}
-@media only screen and (min-width:376px) and (max-width: 394px) {
-    .hh{
-        grid-template-columns: 380px;
-        margin-left: 10px;
-    }    
-    .Titulo{
-        margin-top: -40px;
-        font-size: 20px;
-    }
-    .TextoBeneficios{
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size:15px ;
-    }
-}
-@media only screen and (min-width:300px) and (max-width: 361px) {
+@media only screen and (min-width: 322px) and (max-width: 333px){
     .hh{
         grid-template-columns: 350px;
-        margin-left: 10px;
+        height: 40px;
     }    
     .Titulo{
-        margin-top: -40px;
-        font-size: 20px;
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
     }
     .TextoBeneficios{
         margin-left: 10px;
         margin-right: 10px;
-        font-size:15px ;
+        font-size: 18px;
+        text-align: center;
     }
-}
-
-
-@media only screen and (min-width:416px) and (max-width: 512px) {
+    .GG{
+        margin-left: 13%;
+    }
+} 
+@media only screen and (min-width: 333px) and (max-width: 344px){
     .hh{
-        grid-template-columns: 400px;
-        margin-left: 20px;
+        grid-template-columns: 350px;
+        height: 40px;
     }    
     .Titulo{
-        margin-top: -40px;
-        font-size: 20px;
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
     }
     .TextoBeneficios{
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size:15px ;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
     }
-}
+    .GG{
+        margin-left: 13%;
+    }
+} 
+@media only screen and (min-width: 344px) and (max-width: 371px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 18%;
+    }
+} 
+@media only screen and (min-width: 371px) and (max-width: 381px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 18%;
+    }
+} 
+@media only screen and (min-width: 381px) and (max-width: 393px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 18%;
+    }
+} 
+@media only screen and (min-width: 393px) and (max-width: 409px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 22%;
+    }
+} 
+@media only screen and (min-width: 409px) and (max-width: 421px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 22%;
+    }
+} 
+@media only screen and (min-width: 421px) and (max-width: 438px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 25%;
+    }
+} 
+@media only screen and (min-width: 437px) and (max-width: 448px){
+    .hh{
+        grid-template-columns: 350px;
+        height: 40px;
+    }    
+    .Titulo{
+        margin-top: -50px;
+        font-weight: bold;
+        font-size:20px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 27%;
+    }
+} 
+@media only screen and (min-width: 448px) and (max-width: 471px){
+    .hh{
+        padding-right: 13%; 
+        display: flex;
+
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 5%;
+        width: 400px;
+    }
+} 
+@media only screen and (min-width: 448px) and (max-width: 470px){
+    .hh{
+        padding-right: 13%; 
+        display: flex;
+
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 5%;
+        width: 400px;
+    }
+} 
+@media only screen and (min-width: 470px) and (max-width: 490px){
+    .hh{
+        padding-right: 13%; 
+        display: flex;
+
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 8%;
+        width: 400px;
+    }
+} 
+@media only screen and (min-width: 490px) and (max-width: 510px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 7%;
+        width: 380px;
+    }
+} 
+@media only screen and (min-width: 510px) and (max-width: 535px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
+        width: 380px;
+    }
+} 
+@media only screen and (min-width: 535px) and (max-width: 545px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
+        width: 380px;
+    }
+} 
+@media only screen and (min-width: 545px) and (max-width: 560px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 12%;
+        width: 380px;
+    }
+} 
+
+@media only screen and (min-width: 560px) and (max-width: 585px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 16%;
+        width: 380px;
+    }
+} 
+@media only screen and (min-width: 585px) and (max-width: 600px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 16%;
+        width: 380px;
+    }
+} 
+@media only screen and (min-width: 600px) and (max-width: 620px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 19%;
+        width: 380px;
+    }
+} 
+
+@media only screen and (min-width: 620px) and (max-width: 640px){
+    .hh{
+        display: grid;
+        grid-template-columns: 550px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 19%;
+        width: 380px;
+    }
+} 
+
+@media only screen and (min-width: 640px) and (max-width: 660px){
+    .hh{
+        display: grid;
+        grid-template-columns: 320px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 7%;
+        width: 250px;
+    }
+} 
+@media only screen and (min-width: 660px) and (max-width: 680px){
+    .hh{
+        display: grid;
+        grid-template-columns: 320px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 7%;
+        width: 250px;
+    }
+} 
+@media only screen and (min-width: 680px) and (max-width: 700px){
+    .hh{
+        display: grid;
+        grid-template-columns: 340px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 7%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 700px) and (max-width: 720px){
+    .hh{
+        display: grid;
+        grid-template-columns: 355px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 7%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 720px) and (max-width: 730px){
+    .hh{
+        display: grid;
+        grid-template-columns: 355px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 7%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 730px) and (max-width: 740px){
+    .hh{
+        display: grid;
+        grid-template-columns: 355px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 740px) and (max-width: 755px){
+    .hh{
+        display: grid;
+        grid-template-columns: 362px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 755px) and (max-width: 767px){
+    .hh{
+        display: grid;
+        grid-template-columns: 362px;
+    }    
+    .Titulo{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 767px) and (max-width: 788px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 368px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 10%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 788px) and (max-width: 800px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 376px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 800px) and (max-width: 830px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 387px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 830px) and (max-width: 844px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 398px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 844px) and (max-width: 862px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 410px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 862px) and (max-width: 882px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 420px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 882px) and (max-width: 900px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 430px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 900px) and (max-width: 920px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 430px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 920px) and (max-width: 940px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 450px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 940px) and (max-width: 970px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 465px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 970px) and (max-width: 985px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 475px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 
+@media only screen and (min-width: 985px) and (max-width: 1002px){
+    .hhh{
+        display: grid;
+        grid-template-columns: 485px;
+    }    
+    .TituloCompu{
+        margin-top: -65px;
+        font-weight: bold;
+        font-size:25px;
+        margin-left: -8px;
+        margin-right: -1px;
+    }
+    .TextoBeneficios1{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GG{
+        margin-left: 15%;
+        width: 280px;
+    }
+} 

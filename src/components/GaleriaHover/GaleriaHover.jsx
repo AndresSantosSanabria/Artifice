@@ -1,10 +1,6 @@
 import "./style.css"
-import {motion} from "framer-motion";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-
-
-
 
 const App = () => {
   const navigate = useNavigate();
@@ -23,7 +19,6 @@ const ClickMAR = () => {
 const ClickFARO = () => {
   navigate('/galeria?opcion=opcion4');
 };
-
   const [ancho, setAncho] = useState();
 
     // const carousel = useRef();
@@ -43,7 +38,7 @@ const ClickFARO = () => {
   }, []);
   if (ancho > 767) {
     return (
-        <div className="containerHover">
+        <div className="container">
           <div className="box box-1 img1" data-text="Arena" onClick={ClickARENA}></div>
           <div className="box box-2 img2" data-text="Primavera" onClick={ClickPRIMAVERA}></div>
           <div className="box box-3 img3" data-text="River" onClick={ClickRIVER}></div>
@@ -53,15 +48,15 @@ const ClickFARO = () => {
     );
   }else{
 
-    return (<motion.div className="slider-container" >
-              <motion.div className="SliderG">
-                  <motion.div className="item" onClick={ClickARENA}><img src="img/ImgArtifice/ARENA/5.webp"  alt=""  key={1}/> <p>Arena</p> </motion.div>
-                  <motion.div className="item" onClick={ClickPRIMAVERA}><img src="img/ImgArtifice/PRIMAVERA/primavera.webp" alt=""  key={2}/> <p>Primavera</p> </motion.div>
-                  <motion.div className="item" onClick={ClickRIVER}><img src="img/ImgArtifice/RIVER/IMG_3819.webp" alt=""  key={3}/> <p>River</p> </motion.div>
-                  <motion.div className="item" onClick={ClickMAR}><img src="img/ImgArtifice/MAR/IMG_0855.webp" alt=""  key={4}/> <p>Mar</p> </motion.div>
-                  <motion.div className="item" onClick={ClickFARO}><img  src="img/ImgArtifice/FARO/IMG_3955.webp" alt="" onClick={ClickFARO} key={5}/> <p>Faro</p> </motion.div>
-              </motion.div>
-            </motion.div>
+    return (<div className="slider-container" >
+              <div className="SliderG">
+                  <div className="item"  onClick={ClickARENA}><img src="img/ImgArtifice/ARENA/5.webp"  alt=""/> <p>Arena</p> </div>
+                  <div className="item" onClick={ClickPRIMAVERA}><img src="img/ImgArtifice/PRIMAVERA/primavera.webp" alt="" key={2}/> <p>Primavera</p> </div>
+                  <div className="item" onClick={ClickRIVER}><img src="img/ImgArtifice/RIVER/IMG_3819.webp" alt=""  key={3}/> <p>River</p> </div>
+                  <div className="item" onClick={ClickMAR}><img src="img/ImgArtifice/MAR/IMG_0855.webp" alt=""key={4}/> <p>Mar</p> </div>
+                  <div className="item" onClick={ClickFARO}><img  src="img/ImgArtifice/FARO/IMG_3955.webp" alt="" key={5}/> <p>Faro</p> </div>
+              </div>
+            </div>
       );
   }
 };

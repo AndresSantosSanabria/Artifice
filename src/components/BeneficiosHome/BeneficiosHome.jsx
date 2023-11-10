@@ -1,5 +1,4 @@
 import "./BeneficiosHome.css";
-import "./Beneficios.js"
 import React, { useState, useEffect } from "react";
 
 const App = () => {
@@ -65,8 +64,8 @@ useEffect(() => {
                         <img className="iconoCorazon" src="img/ImgArtifice/Iconos/amor.png"  alt=""  ></img>
                             <p className="TituloCompu" ><strong>SOSTENIBILIDAD</strong> </p>
                             <p className="TextoBeneficios1">
-                            <strong>Nuestra pasión por el diseño y la arquitectura impulsa nuestra dedicación y
-                            entusiasmo por cada proyecto.</strong></p>
+                            <strong>Nos comprometemos a adoptar prácticas sostenibles en nuestros proyectos 
+                                y a contribuir al cuidado del medio ambiente.</strong></p>
                         </div>
                 </div>
                     <div className="hhh">
@@ -74,8 +73,7 @@ useEffect(() => {
                         <img className="iconoCorazon" src="img/ImgArtifice/Iconos/amor.png" alt="" ></img>
                             <p className="TituloCompu" ><strong>INNOVACION</strong> </p>
                             <p className="TextoBeneficios1">
-                            <strong>Nuestra pasión por el diseño y la arquitectura impulsa nuestra dedicación y
-                            entusiasmo por cada proyecto.</strong></p>
+                            <strong>Buscamos constantemente nuevas ideas y enfoques para mantenernos a la vanguardia de la industria.</strong></p>
                         </div>
                     </div>
                 </div>
@@ -137,8 +135,8 @@ useEffect(() => {
                         <img className="iconoCorazon" src="img/ImgArtifice/Iconos/amor.png"  alt=""  ></img>
                             <p className="Titulo" ><strong>SOSTENIBILIDAD</strong> </p>
                             <p className="TextoBeneficios">
-                            <strong>Nuestra pasión por el diseño y la arquitectura impulsa nuestra dedicación y
-                            entusiasmo por cada proyecto.</strong></p>
+                            <strong>Nos comprometemos a adoptar prácticas sostenibles en nuestros proyectos y a
+                                 contribuir al cuidado del medio ambiente.</strong></p>
                         </div>
                 </div>
                     <div className="hh">
@@ -146,8 +144,7 @@ useEffect(() => {
                         <img className="iconoCorazon" src="img/ImgArtifice/Iconos/amor.png" alt="" ></img>
                             <p className="Titulo" ><strong>INNOVACION</strong> </p>
                             <p className="TextoBeneficios">
-                            <strong>Nuestra pasión por el diseño y la arquitectura impulsa nuestra dedicación y
-                            entusiasmo por cada proyecto.</strong></p>
+                            <strong>Buscamos constantemente nuevas ideas y enfoques para mantenernos a la vanguardia de la industria.</strong></p>
                         </div>
                     </div>
                 </div>

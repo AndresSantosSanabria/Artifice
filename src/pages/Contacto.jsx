@@ -10,7 +10,7 @@ function Contacto() {
         <SliderV nombre="Contacto"></SliderV>
         <Titulo titulo1="Formulario"></Titulo>
         <Formulario></Formulario>
-        <Titulo titulo1="Nos encuentras en:" titulo2="Cll. 4F # 39B - 20 / Bogota - Colombia"></Titulo>
+        <Titulo titulo1="Nos encuentras en:" titulo2="Cll. 4F # 39B - 20 / Bogotá - Colombia"></Titulo>
         <Map></Map>
         </>
     );

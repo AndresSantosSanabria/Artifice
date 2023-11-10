@@ -2,6 +2,11 @@ import "./Footer.css"
 import { Link } from 'react-router-dom';
 import { TiSocialInstagram,TiSocialFacebookCircular,TiSocialLinkedin } from "react-icons/ti";
 import { FaWhatsapp } from "react-icons/fa";
+
+function subir() {
+    window.scrollTo(0, 0);
+}
+
 const Footer = () =>{
 
     return <>
@@ -12,7 +17,7 @@ const Footer = () =>{
                 </div>
                     <div className="LinkSFooter">
                         <div className="LinkFooter">
-                            <Link className="EnlaceFooter"to="/">Inicio</Link>
+                            <Link className="EnlaceFooter"to="/" onClick={subir}>Inicio</Link>
                         </div><hr></hr>
                         <div className="LinkFooter">
                             <Link className="EnlaceFooter" to="/Nosotros">Nosotros</Link>
@@ -41,7 +46,7 @@ const Footer = () =>{
                         </ul> 
                     </div>
                     <div>
-                        <p className="copyright">copyright  &copy;​ 2023 artifice</p>
+                        <p className="copyright">copyright &copy;​ 2023 artifice</p>
                     </div>
             </div>
     </footer>

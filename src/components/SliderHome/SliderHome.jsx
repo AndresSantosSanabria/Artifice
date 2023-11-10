@@ -9,10 +9,9 @@ const SliderHome = ()=> {
                 <li className="TextoSecundaria1">
                     <img className="imgSlider" src="img/ImgArtifice/ARENA/9.webp"  alt="" />
                     <div className="textoSlider1">
-                        <h5 className="Bienvenido">Bienvenido a Artifice</h5>
+                        <h5 className="Bienvenido">Bienvenido a Artífice</h5>
                             <h2 className="h2Slider">Remodela tu hogar con nosotros</h2>
-                        <p className="ParrafoPrincipal">Porque creemos que tu casa puede ser de pelicula, queremos poner a tu alcance el diseño de interiores online.
-                        Facil, divertido y asequible</p>
+                        <p className="ParrafoPrincipal">Porque creemos que tu casa puede ser de película, queremos poner a tu alcance el diseño de interiores online. Fácil, divertido y asequible</p>
                     </div>
                 </li>
                 <li  className="TextoSecundaria">
